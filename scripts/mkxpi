@@ -1,0 +1,3 @@
+#run in the root directory
+rm fixlinks.xpi
+zip -r fixlinks.xpi chrome		chrome.manifest	defaults	install.rdf

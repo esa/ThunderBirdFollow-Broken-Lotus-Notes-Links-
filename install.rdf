@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>fixlinks@sciops.esa.int</em:id>
+    <em:type>2</em:type>
+    <em:name>Follow Broken Lotus Notes Links</em:name>
+    <em:version>0.3.1</em:version>
+    <em:creator>William O&#039;Mullane</em:creator>
+    <em:contributor></em:contributor>
+    <em:description>Mail coming from notes servers cut hyperlink and insert \
+in the url.
+Simply wish to replace this with / and remove the newline. This fixes the active href without modifying the text on screen - looks same but the link will work. </em:description>
+    <em:aboutURL>chrome://fixlink/content/about.xul</em:aboutURL>
+    <em:targetApplication>
+      <Description>
+        <em:id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</em:id> <!-- Thunderbird -->
+        <em:minVersion>2.0</em:minVersion>
+        <em:maxVersion>9.0a1</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+  </Description>
+</RDF>

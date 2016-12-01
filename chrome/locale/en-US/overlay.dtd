@@ -1,0 +1,8 @@
+<!ENTITY fixlink.label "Your localized menuitem">
+<!ENTITY fixlinkContext.label "Your Menuitem">
+<!ENTITY fixlinkContext.accesskey "Y">
+<!ENTITY fixlinkToolbarButton.label "Your Toolbar Button">
+<!ENTITY fixlinkToolbarButton.tooltip "This is your toolbar button!">
+<!ENTITY fixlinkSidebar.label "Your Sidebar">
+<!ENTITY fixlinkToolbar.name  "example">
+<!ENTITY fixlinkToolbar.label "This is an example toolbar. You can hide it under View &gt; toolbars &gt; &fixlinkToolbar.name;">

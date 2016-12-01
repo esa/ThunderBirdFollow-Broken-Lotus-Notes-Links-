@@ -1,0 +1,8 @@
+content   fixlink                 chrome/content/
+skin   fixlink    classic         chrome/skin/
+locale fixlink en        chrome/content/ 
+# Thunderbird mail
+overlay	chrome://messenger/content/messenger.xul chrome://fixlink/content/button.xul
+
+style chrome://global/content/customizeToolbar.xul chrome://fixlink/skin/overlay.css
+
